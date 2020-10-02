@@ -37,9 +37,9 @@ class _MyAppState extends State<MyApp>  {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'CHAT APP',
       theme: ThemeData(
-        scaffoldBackgroundColor: Color(0xff1F1F1F),
+        scaffoldBackgroundColor: Colors.yellowAccent,
         primarySwatch: Colors.blue[120],
       ),
       home: (userIsLoggedIn)? ChatRoom() :Authenticate(),
